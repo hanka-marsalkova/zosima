@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Zosima Quartet</title>
-  <meta name="description" content="Zosima Quartet — nyckelharpa, two cellos and clarinet. Chamber music with a deep, meditative character.">
+  <meta name="description" content="Zosima Quartet — nyckelharpa, two cellos and clarinet.">
   <meta name="theme-color" content="#231C16">
   <meta property="og:title" content="Zosima Quartet">
   <meta property="og:description" content="Nyckelharpa / two cellos / clarinet">
@@ -12,7 +12,7 @@
   <meta property="og:image" content="assets/images/zosima-logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -24,66 +24,63 @@
         <button class="lang-btn" data-lang="en" type="button">EN</button>
       </div>
       <img class="logo" src="assets/images/zosima-logo.png" alt="Zosima Quartet">
-      <p class="tagline" data-field="tagline">NYCKELHARPA / DVĚ VIOLONCELLA / KLARINET</p>
+      <p class="tagline" data-field="tagline"></p>
     </header>
 
     <section class="section videos-section" aria-labelledby="listen-title">
-      <h1 id="listen-title" class="section-title" data-field="listenTitle">POSLECHNĚTE SI NÁS</h1>
-      <div id="video-grid" class="video-grid" aria-label="YouTube videos"></div>
+      <div class="content-wrap wide-wrap">
+        <h1 id="listen-title" class="small-heading line-heading" data-field="listenTitle"></h1>
+        <div id="video-grid" class="video-grid" aria-label="YouTube videos"></div>
+      </div>
     </section>
 
-    <section class="section dark-section" aria-labelledby="about-title">
-      <div class="text-grid primary-grid">
-        <div>
-          <h2 id="about-title" class="block-title" data-field="aboutTitle">O SOUBORU</h2>
-        </div>
-        <div>
+    <section class="section dark-section" aria-label="About and repertoire">
+      <div class="content-wrap text-wrap two-column">
+        <article>
+          <h2 class="small-heading line-heading" data-field="aboutTitle"></h2>
           <p class="body-copy" data-field="aboutText"></p>
-        </div>
-      </div>
-
-      <div class="info-grid">
-        <article>
-          <h3 data-field="repertoireTitle">REPERTOÁR</h3>
-          <p data-field="repertoireText"></p>
         </article>
-        <article>
-          <h3 data-field="characterTitle">CHARAKTER</h3>
-          <p data-field="characterText"></p>
-        </article>
-        <article>
-          <h3 data-field="suitableTitle">VHODNÉ PRO</h3>
-          <p data-field="suitableText"></p>
+        <article class="stacked-info">
+          <h2 class="small-heading line-heading" data-field="repertoireTitle"></h2>
+          <p class="body-copy emphasis" data-field="repertoireText"></p>
+          <h3 class="small-heading subhead" data-field="characterTitle"></h3>
+          <p class="body-copy emphasis short" data-field="characterText"></p>
+          <h3 class="small-heading subhead" data-field="suitableTitle"></h3>
+          <p class="body-copy emphasis short" data-field="suitableText"></p>
         </article>
       </div>
     </section>
 
-    <section class="section light-section" aria-label="Nyckelharpa and musicians">
-      <div class="text-grid">
+    <section class="section gray-section" aria-label="Nyckelharpa and musicians">
+      <div class="content-wrap text-wrap two-column">
         <article>
-          <h2 class="block-title" data-field="nyckelharpaTitle">CO JE NYCKELHARPA?</h2>
+          <h2 class="small-heading line-heading" data-field="nyckelharpaTitle"></h2>
           <p class="body-copy" data-field="nyckelharpaText"></p>
         </article>
         <article>
-          <h2 class="block-title" data-field="musiciansTitle">OBSAZENÍ</h2>
+          <h2 class="small-heading line-heading" data-field="musiciansTitle"></h2>
           <div id="musicians" class="musicians-list"></div>
         </article>
       </div>
     </section>
 
     <section class="contact-section" aria-label="Contact">
-      <h2 data-field="contactTitle">MÁTE ZÁJEM O VYSTOUPENÍ NEBO SPOLUPRÁCI?</h2>
-      <p data-field="contactText">Napište nám.</p>
-      <a id="email-link" class="email-link" href="mailto:booking@zosimaquartet.com">BOOKING@ZOSIMAQUARTET.COM</a>
-      <div class="social-links">
-        <a id="facebook-link" href="https://www.facebook.com/p/Zosima-Quartet-61574817479518/" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.2 8.1h2.1V4.6c-.4-.1-1.7-.2-3.2-.2-3.2 0-5.3 1.9-5.3 5.5v3.1H4.4v3.9h3.4v8.7h4.1v-8.7h3.4l.5-3.9h-3.9V10.3c0-1.1.3-2.2 2.3-2.2z"/></svg>
-          <span>Facebook</span>
-        </a>
-        <a id="mail-icon-link" href="mailto:booking@zosimaquartet.com" aria-label="E-mail">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.4h17c.8 0 1.5.7 1.5 1.5v9.9c0 .8-.7 1.5-1.5 1.5h-17c-.8 0-1.5-.7-1.5-1.5V7.9c0-.8.7-1.5 1.5-1.5zm.8 2.2v.2l7.7 5.1 7.7-5.1v-.2H4.3zm15.4 8.5v-6.2l-7.1 4.7c-.4.3-.8.3-1.2 0l-7.1-4.7v6.2h15.4z"/></svg>
-          <span>E-mail</span>
-        </a>
+      <div class="content-wrap text-wrap contact-grid">
+        <div class="contact-copy">
+          <h2 data-field="contactTitle"></h2>
+          <p data-field="contactText"></p>
+          <a id="email-link" class="email-link" href="mailto:booking@zosimaquartet.com">BOOKING@ZOSIMAQUARTET.COM</a>
+        </div>
+        <div class="contact-links">
+          <a id="mail-icon-link" class="contact-action" href="mailto:booking@zosimaquartet.com" aria-label="E-mail">
+            <span class="icon-circle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 6.4h17c.8 0 1.5.7 1.5 1.5v9.9c0 .8-.7 1.5-1.5 1.5h-17c-.8 0-1.5-.7-1.5-1.5V7.9c0-.8.7-1.5 1.5-1.5zm.8 2.2v.2l7.7 5.1 7.7-5.1v-.2H4.3zm15.4 8.5v-6.2l-7.1 4.7c-.4.3-.8.3-1.2 0l-7.1-4.7v6.2h15.4z"/></svg></span>
+            <span>E-mail</span>
+          </a>
+          <a id="facebook-link" class="contact-action" href="#" target="_blank" rel="noopener" aria-label="Facebook">
+            <span class="icon-circle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.2 8.1h2.1V4.6c-.4-.1-1.7-.2-3.2-.2-3.2 0-5.3 1.9-5.3 5.5v3.1H4.4v3.9h3.4v8.7h4.1v-8.7h3.4l.5-3.9h-3.9V10.3c0-1.1.3-2.2 2.3-2.2z"/></svg></span>
+            <span>Facebook</span>
+          </a>
+        </div>
       </div>
     </section>
   </main>
