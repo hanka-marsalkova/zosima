@@ -167,7 +167,6 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
   font-weight: 600;
   color: var(--white);
   text-align: justify;
-  hyphens: auto;
 }
 .emphasis,
 .musicians-list p {
