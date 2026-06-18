@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "title": "Zosima Quartet",
+  "tagline": "NYCKELHARPA   /   TWO CELLOS   /   CLARINET",
+  "listenTitle": "LISTEN TO US",
+  "aboutTitle": "ABOUT THE ENSEMBLE",
+  "aboutText": "Our quartet brings together the sound of the nyckelharpa, two cellos, and the clarinet. We perform original works of Jiří Maršálek (nyckelharpa) that blend classical minimalism with influences from earlier musical traditions. Centered on deep, reflective themes and shaped by the nyckelharpa’s unusual resonance, our music carries a solemn, spiritual character. If you are interested in a performance at your event or would like to discuss other forms of collaboration, please feel free to reach out.",
+  "repertoireTitle": "REPERTOIRE",
+  "repertoireText": "The repertoire centers around Jiří Maršálek's original compositions, occasionally complemented by pieces from minimalist composers or earlier music.",
+  "characterTitle": "CHARACTER",
+  "characterText": "Deep, meditative, dramatically quiet",
+  "suitableTitle": "SUITABLE FOR",
+  "suitableText": "Chamber concerts, sacred spaces, galleries, site-specific projects",
+  "nyckelharpaTitle": "WHAT IS THE NYCKELHARPA?",
+  "nyckelharpaText": "The nyckelharpa is a string instrument originally from 12th century Italy, which found its home mainly within Scandinavian traditional folk music. It features 4 playing strings in the same tuning as the viola, plus 12 more resonant strings which create the characteristic tone with long natural echo. The sound itself has a very deep, reflective nature which fits religious music.",
+  "musiciansTitle": "MUSICIANS",
+  "musicians": [
+    {"name": "Zdeněk Žert", "instrument": "Violoncello"},
+    {"name": "Kristýna Uhrová", "instrument": "Violoncello"},
+    {"name": "Radek Hrbáček", "instrument": "Clarinet"},
+    {"name": "Jiří Maršálek", "instrument": "Nyckelharpa"}
+  ],
+  "contactTitle": "INTERESTED IN PERFORMANCE OR COLLABORATION?",
+  "contactText": "Let us know."
+}

@@ -1,0 +1,25 @@
+{
+  "language": "cs",
+  "title": "Zosima Quartet",
+  "tagline": "NYCKELHARPA   /   DVĚ VIOLONCELLA   /   KLARINET",
+  "listenTitle": "POSLECHNĚTE SI NÁS",
+  "aboutTitle": "O SOUBORU",
+  "aboutText": "Soubor Zosima Quartet slučuje dohromady zvuk nyckelharpy s klarinetem a dvěma violoncelly. Vystupujeme především s kompozicemi Jiřího Maršálka (nyckelharpa), které kombinují klasický minimalismus s vlivy starších hudebních tradic. Naše hudba je vystavěná na hlubokých, reflektivních tématech, je tvarovaná neobvyklou rezonancí nyckelharpy a přednáší zasněný, spirituální prožitek. V případě zájmu o vystoupení našeho souboru na Vaší akci či o jinou formu spolupráce nás neváhejte kontaktovat.",
+  "repertoireTitle": "REPERTOÁR",
+  "repertoireText": "Repertoár tvoří původní skladby Jiřího Maršálka, doplněné o kompozice autorů z období minimalismu či starších skladatelských škol.",
+  "characterTitle": "CHARAKTER",
+  "characterText": "Hluboký, meditativní, nábožensky reflektivní",
+  "suitableTitle": "VHODNÉ PRO",
+  "suitableText": "Komorní koncerty, sakrální místa, galerie, site-specific projekty",
+  "nyckelharpaTitle": "CO JE NYCKELHARPA?",
+  "nyckelharpaText": "Jedná se o smyčcový nástroj původem z Itálie, poprvé zhotovený již ve 12. století. V dnešní době se s ním setkáme především ve skandinávské tradiční hudbě. Ladění čtyř hlavních strun odpovídá ladění violy, ale nástroj je doplněný i o 12 dalších rezonančních strun, které vytvářejí osobitý přirozený dozvuk. Samotný zvuk nyckelharpy má velmi zasmušilou a vážnou barvu, díky které se velmi hodí pro náboženskou hudbu.",
+  "musiciansTitle": "OBSAZENÍ",
+  "musicians": [
+    {"name": "Zdeněk Žert", "instrument": "Violoncello"},
+    {"name": "Kristýna Uhrová", "instrument": "Violoncello"},
+    {"name": "Radek Hrbáček", "instrument": "Klarinet"},
+    {"name": "Jiří Maršálek", "instrument": "Nyckelharpa"}
+  ],
+  "contactTitle": "MÁTE ZÁJEM O VYSTOUPENÍ NEBO SPOLUPRÁCI?",
+  "contactText": "Napište nám."
+}
