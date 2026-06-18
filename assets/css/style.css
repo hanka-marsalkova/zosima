@@ -7,7 +7,7 @@
   --white: #FFFFFF;
   --gray-text: #898989;
   --line: rgba(241,235,221,.72);
-  --wrap: 760px;
+  --wrap: 860px;
   --wide: 1140px;
 }
 * { box-sizing: border-box; }
