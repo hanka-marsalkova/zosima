@@ -49,7 +49,7 @@ function renderVideos() {
     link.href = `https://www.youtube.com/watch?v=${id}`;
     link.target = '_blank';
     link.rel = 'noopener';
-    link.style.backgroundImage = `url(https://img.youtube.com/vi/${id}/maxresdefault.jpg), url(https://img.youtube.com/vi/${id}/hqdefault.jpg)`;
+    link.style.backgroundImage = `url(https://img.youtube.com/vi/${id}/hqdefault.jpg)`;
     link.innerHTML = `<span class="play-badge"><span class="play-icon"></span><span>Play video</span></span>`;
     grid.appendChild(link);
   });

@@ -8,7 +8,7 @@
   --gray-text: #898989;
   --line: rgba(241,235,221,.72);
   --wrap: 760px;
-  --wide: 1518px;
+  --wide: 1140px;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -30,24 +30,24 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
 
 .hero {
   position: relative;
-  min-height: 760px;
-  padding: 62px 24px 70px;
+  min-height: 410px;
+  padding: 64px 24px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: var(--brown);
   text-align: center;
 }
 .language-switch {
   position: absolute;
-  top: 54px;
-  right: max(8.8vw, 90px);
+  top: 48px;
+  right: max(7.2vw, 60px);
   display: inline-flex;
   align-items: center;
   gap: 11px;
   color: var(--text-warm);
-  font-size: 19px;
+  font-size: 18px;
   letter-spacing: .01em;
   text-transform: uppercase;
 }
@@ -56,24 +56,24 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
 .lang-btn:hover { opacity: 1; }
 .logo {
   display: block;
-  width: min(735px, 72vw);
+  width: min(520px, 58vw);
   height: auto;
-  margin: 8px auto 92px;
+  margin: 18px auto 74px;
 }
 .tagline {
   margin: 0;
-  font-size: 18px;
-  line-height: 1.3;
+  font-size: 15px;
+  line-height: 1.35;
   font-weight: 400;
-  letter-spacing: .36em;
-  text-indent: .36em;
+  letter-spacing: .29em;
+  text-indent: .29em;
   color: var(--text-warm);
   text-transform: uppercase;
 }
 
 .videos-section {
   background: var(--brown);
-  padding: 4px 0 38px;
+  padding: 0 0 36px;
 }
 .small-heading {
   margin: 0;
@@ -91,7 +91,7 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
   border-bottom: 1px solid var(--line);
 }
 .video-grid {
-  margin-top: 28px;
+  margin-top: 22px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 6px;
@@ -99,7 +99,7 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
 .video-card {
   position: relative;
   display: block;
-  aspect-ratio: 16 / 8.1;
+  aspect-ratio: 16 / 8.6;
   background: #111 center / cover no-repeat;
   overflow: hidden;
 }
@@ -254,21 +254,22 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
 .icon-circle svg { width: 25px; height: 25px; fill: currentColor; }
 
 @media (max-width: 980px) {
-  .hero { min-height: 610px; padding-top: 60px; }
+  .hero { min-height: 360px; padding-top: 54px; padding-bottom: 16px; }
   .language-switch { top: 28px; right: 26px; font-size: 16px; }
-  .logo { width: min(590px, 83vw); margin-bottom: 60px; }
+  .logo { width: min(430px, 78vw); margin-bottom: 48px; }
   .tagline { font-size: 14px; letter-spacing: .18em; text-indent: .18em; }
   .wide-wrap, .text-wrap { width: min(100% - 42px, 680px); }
   .video-grid { grid-template-columns: 1fr; gap: 12px; }
   .video-card { aspect-ratio: 16 / 9; }
   .two-column { grid-template-columns: 1fr; gap: 32px; }
-  .body-copy, .musicians-list p { font-size: 18px; text-align: left; }
+  .body-copy { font-size: 18px; text-align: justify; }
+  .musicians-list p { font-size: 18px; text-align: left; }
   .contact-grid { grid-template-columns: 1fr; gap: 30px; }
   .contact-links { gap: 14px; }
 }
 @media (max-width: 520px) {
-  .hero { min-height: 520px; }
-  .logo { width: 91vw; margin-bottom: 44px; }
+  .hero { min-height: 320px; }
+  .logo { width: 84vw; margin-bottom: 36px; }
   .tagline { font-size: 12px; letter-spacing: .11em; text-indent: .11em; }
   .small-heading { font-size: 12px; }
   .body-copy, .musicians-list p { font-size: 17px; }
