@@ -155,14 +155,14 @@ button { background: transparent; border: 0; padding: 0; cursor: pointer; }
 .two-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 96px;
+  gap: 70px;
   align-items: start;
 }
 .body-copy,
 .musicians-list p {
   margin: 14px 0 0;
   font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.55;
   font-weight: 600;
   color: var(--white);
